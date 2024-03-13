@@ -7,6 +7,7 @@ const App: React.FC = () => {
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
+        {process.env["REACT_APP_GOOGLE_API_KEY"]}
         <a
           className="App-link"
           href="https://reactjs.org"
